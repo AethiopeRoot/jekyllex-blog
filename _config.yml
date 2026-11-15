@@ -1,0 +1,22 @@
+# Site settings
+title: "Taonga C Mwalwanda"
+description: "Indie developer building games and tools."
+baseurl: ""
+url: ""
+
+# Author
+author:
+  name: "Taonga C Mwalwanda"
+  bio: "Indie dev sharing devlogs, projects, and lessons learned."
+  avatar: "/assets/images/avatar.jpg"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
